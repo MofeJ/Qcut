@@ -1,0 +1,496 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Addstorenew" >
+
+    <RelativeLayout
+        android:id="@+id/rel_header"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/title_bg" >
+
+        <TextView
+            android:id="@+id/txt_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Add Store"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rel_header"
+        android:orientation="horizontal"
+        android:stretchColumns="0,1,2" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/ll_step1"
+                android:layout_width="107dp"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txt_step1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Step 1"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_step2"
+                android:layout_width="107dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp" >
+
+                <TextView
+                    android:id="@+id/txt_step2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Step2"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_step3"
+                android:layout_width="107dp"
+                android:layout_height="50dp"
+                android:layout_column="2"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp" >
+
+                <TextView
+                    android:id="@+id/txt_step3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Step3"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_step1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tableLayout"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/name_text_fiel"
+            android:paddingLeft="10dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/edt_name"
+            android:text="Name :"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_address"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edt_name"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/name_text_fiel"
+            android:paddingLeft="10dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/txt_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_name"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/edt_address"
+            android:text="Address :"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edt_address"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/name_text_fiel"
+            android:paddingLeft="10dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/txt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_address"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/edt_email"
+            android:text="Email Id :"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_phone"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edt_email"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/name_text_fiel"
+            android:paddingLeft="10dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/txt_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_email"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/edt_phone"
+            android:text="Phone No :"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_sms"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edt_phone"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/name_text_fiel"
+            android:paddingLeft="10dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/txt_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_phone"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/edt_sms"
+            android:text="Sms No :"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_website"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edt_sms"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/name_text_fiel"
+            android:paddingLeft="10dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/txt_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_sms"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/edt_website"
+            android:text="Website :"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_next1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Next Step.."
+            android:textColor="#000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_step2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tableLayout"
+        android:visibility="gone" >
+
+        <Spinner
+            android:id="@+id/category"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/txt_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/category"
+            android:text="Category :"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_description"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/category"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/name_text_fiel"
+            android:paddingLeft="10dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/category"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/edt_description"
+            android:text="Description :"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_search"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edt_description"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/name_text_fiel"
+            android:paddingLeft="10dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/txt_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_description"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/edt_search"
+            android:text="Location :"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <fragment
+            android:id="@+id/mapFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/edt_search"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            class="com.google.android.gms.maps.SupportMapFragment" />
+
+        <EditText
+            android:id="@+id/edt_latitude"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/mapFragment"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/name_text_fiel"
+            android:paddingLeft="10dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/txt_latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mapFragment"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/edt_latitude"
+            android:text="Latitude :"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_longitude"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edt_latitude"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/name_text_fiel"
+            android:paddingLeft="10dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/txt_longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_latitude"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/edt_longitude"
+            android:text="Longitude :"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_next2"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Next Step.."
+            android:textColor="#000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_step3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tableLayout"
+        android:layout_marginTop="5dp"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_thumbnail"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txt_thumb"
+            android:layout_marginTop="7dp"
+            android:text="Choose File"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_thumbname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_thumb"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/btn_thumbnail"
+            android:lines="2"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_thumb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:text="Thumbnail Image :"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_multiple"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txt_multiple"
+            android:layout_marginTop="7dp"
+            android:text="Choose File"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_multiplename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_multiple"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/btn_multiple"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_multiple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_thumbnail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:text="Multiple Image :"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_next3"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Submit"
+            android:textColor="#000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_infodialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+</RelativeLayout>

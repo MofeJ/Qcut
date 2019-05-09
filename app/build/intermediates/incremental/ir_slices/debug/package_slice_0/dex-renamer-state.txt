@@ -1,0 +1,4 @@
+#Wed May 01 23:22:38 WAT 2019
+base.0=C\:\\Users\\HPLAPTOP\\Desktop\\Mofe J\\Store finder\\StoreFinderV1.5\\Code\\StorefinderV5\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="06348c1b3f7df2ff7f9f5d1a6844f6240a4e47bb">
+        <dex dex="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_76582c3d93698704bdaf22c004ca48088f0a9108/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/redixbit/.android/build-cache/716f47845503f5de60511157096e10d7f45276a5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1fe3cd1f86db60e5e69ec5c4a68ed5d3aea57909">
+        <dex dex="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9aff06945df5ea9f424e1579043f12f7319841cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/libs/OneSignalSDK.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2eaf009e303ba441c18d5651d9b05612047c2f30">
+        <dex dex="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/build/intermediates/transforms/dex/debug/folders/1000/2/OneSignalSDK_1bb7a56ea601e8c5930d082aa21e333057188eed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/libs/gcm.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="92bef354f25f31cb76bd1a4f1c1df87b498a9ebf">
+        <dex dex="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/build/intermediates/transforms/dex/debug/folders/1000/2/gcm_82b0f7dee8ff39d6c7d15379b5d38453f33b11dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/redixbit/.android/build-cache/f74345b1cbec6b84a9ba40b59e3dde3f23c008ab/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="451e07e95c9f662049ab14915bd1c8114e8acc2b">
+        <dex dex="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a8c2c30053f30e6bbeb395e7f001dc3918ec1b30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/redixbit/.android/build-cache/5008970f1ab0bd787c9eb8e4af18d80222a0d31a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bb183283871cbff072b40a32e55e205ceac1dbe9">
+        <dex dex="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_78e5c841c9b311e25096471e61f91e268f14881e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/libs/httpcore-4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="11393498b38e9695d0850cac26fde5613ae268b9">
+        <dex dex="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.3_a2f166c6a7cff7730dcff1a74bcb20908a1e8f50/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/libs/facebook-android-sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6dc0eeb78865df2b258beaa293e8d92dde42a3bf">
+        <dex dex="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/build/intermediates/transforms/dex/debug/folders/1000/2/facebook-android-sdk_8e2066e51b7f2c5642ce7af7bbe48e97160a1fe1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/libs/httpmime-4.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7899276dddd01d8a42ecfe27e7031fcf9824422">
+        <dex dex="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.3.1_3c562b39b77910fd2c3eae7c73b110bab7f0f092/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/libs/apache-mime4j-0.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="945007627e8d12275d755081a9e609c018e1210d">
+        <dex dex="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/build/intermediates/transforms/dex/debug/folders/1000/2/apache-mime4j-0.6_deea0f2c9b5aaa0512b62ff1fb41558fe5460392/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Volumes/Development/TemplateProject/AndroidTemplate/StoreFinder_All/StoreFidnerV1.4/StorefinderV4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_42e72e727baf9b6a13a0b1ca8a3d966497c6ac96/classes.dex" />
+    </item>
+
+</items>

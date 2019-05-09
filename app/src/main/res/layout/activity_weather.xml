@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Weather" >
+
+    <RelativeLayout
+        android:id="@+id/rel_weather"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/title_bg" >
+
+        <TextView
+            android:id="@+id/txt_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Weather"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/rel_weather"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/centar_bg" >
+
+        <ImageView
+            android:id="@+id/img_weather"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/weathar_icon"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/txt_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_cel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_weather"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="C"
+            android:textColor="#fff"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/txt_cel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_weather"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/txt_cel"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_cel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="25dp"
+            android:text="he"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

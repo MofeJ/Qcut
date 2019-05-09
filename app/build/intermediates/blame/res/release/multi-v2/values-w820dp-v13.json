@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\HPLAPTOP\\Desktop\\Mofe J\\Store finder\\Store finder\\Code\\Store finder\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\HPLAPTOP\\Desktop\\Mofe J\\Store finder\\Store finder\\Code\\Store finder\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "310",
+                        "endColumns": "57",
+                        "endOffsets": "363"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "356",
+                        "endColumns": "57",
+                        "endOffsets": "409"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HPLAPTOP\\Desktop\\Mofe J\\Store finder\\Store finder\\Code\\Store finder\\app\\src\\main\\res\\values-w820dp\\colors.xml",
+                    "from": {
+                        "startLines": "5,4,2,3,11,12,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "204,157,57,105,290,331,251",
+                        "endColumns": "37,45,46,50,39,40,37",
+                        "endOffsets": "237,198,99,151,325,367,284"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,93,139,186,237,277,318",
+                        "endColumns": "37,45,46,50,39,40,37",
+                        "endOffsets": "88,134,181,232,272,313,351"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+# Referenced at C:\Users\HPLAPTOP\Desktop\Mofe J\Store finder\Store finder\Code\Store finder\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:64
+-keep class android.support.multidex.MultiDexApplication { <init>(); }

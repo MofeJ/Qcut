@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abc">#ff00ff</color>
+    <color name="colorAccent">#3c3c3c</color>
+    <color name="colorPrimary">#303c44</color>
+    <color name="colorPrimaryDark">#298362</color>
+    <color name="green">#14B457</color>
+    <color name="orange">#F27466</color>
+    <color name="red">#F73E46</color>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_review_cell"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/cell_review" >
+
+        <RelativeLayout
+            android:id="@+id/rl_img_round"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp" >
+
+            <ImageView
+                android:id="@+id/img_round"
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:id="@+id/txt_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="R"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <freaktemplate.utils.RoundedImageView
+            android:id="@+id/img_user"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/circle_image" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/img_user"
+            android:autoLink="all"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_name"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/img_user"
+            android:autoLink="all"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:id="@+id/rate1"
+            style="@style/foodRatingBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/rl_img_round"
+            android:isIndicator="true"
+            android:scaleX="0.4"
+            android:scaleY="0.4" />
+    </RelativeLayout>
+
+</RelativeLayout>

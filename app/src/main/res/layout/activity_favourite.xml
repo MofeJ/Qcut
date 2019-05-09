@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/favmain">
+
+    <RelativeLayout
+        android:id="@+id/rl_head_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/img_cat_header"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/title_bg"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/txt_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/title_activity_favourite"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <freaktemplate.utils.JazzyListView
+        android:id="@+id/list_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/adView"
+        android:divider="@null"
+        android:dividerHeight="2dp"
+        android:layout_below="@+id/rl_head_title"
+        android:layout_marginTop="7dp"
+        app:effect="curl"
+
+        app:only_animate_new_items="false"
+        app:only_animate_fling="false"
+        app:max_velocity="0">
+    </freaktemplate.utils.JazzyListView>
+
+     <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_key" >
+    </com.google.android.gms.ads.AdView>
+    
+    <RelativeLayout
+        android:id="@+id/rl_infodialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+</RelativeLayout>
